@@ -1,9 +1,52 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Aug 31, 2023, 7:13:22 PM
-    Author     : Dragana
-*/
 
+$table-border: 1px solid $black;
+$table-head-bg:$purple;
+$thead-color:$white;
+$thead-border-color: 1px solid $white;
+$tbody-even-bg:$white;
+$tbody-hover-bg:darken($light-gray, 15%);
+
+.course-section{
+    padding: 50px 0px;
+    
+    table{
+        border: $table-border;
+        border-collapse: collapse;
+        width: 100%;
+        
+        caption{
+            text-align: left;
+            font-style: italic;
+        }
+        
+        th, td{
+             border: $table-border;
+             padding:10px 5px;
+        }
+        
+        thead{
+            background-color: $table-head-bg;
+            
+            th{
+                color:$thead-color;
+                border:$thead-border-color
+            }
+        }
+        
+        tbody{
+            tr{
+                &:nth-last-of-type(even){
+                    background-color: $tbody-even-bg;
+                }
+                &:hover{
+                    background-color: $tbody-hover-bg;
+                }
+            }
+        }
+    }
+    
+    
+    
+    
+    
+}

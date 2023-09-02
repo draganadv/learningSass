@@ -525,14 +525,43 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
   background: #ffffff;
 }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Aug 31, 2023, 7:13:22 PM
-    Author     : Dragana
-*/
+.course-section {
+  padding: 50px 0px;
+}
+
+.course-section table {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.course-section table caption {
+  text-align: left;
+  font-style: italic;
+}
+
+.course-section table th, .course-section table td {
+  border: 1px solid #000000;
+  padding: 10px 5px;
+}
+
+.course-section table thead {
+  background-color: #8a059e;
+}
+
+.course-section table thead th {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.course-section table tbody tr:nth-last-of-type(even) {
+  background-color: #ffffff;
+}
+
+.course-section table tbody tr:hover {
+  background-color: #c8c8c8;
+}
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
